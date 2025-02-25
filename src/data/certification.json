@@ -1,35 +1,13 @@
 [
     {
-      "role": "Graduate Teaching Assistant",
-      "organisation": "University of North Carolina at Charlotte",
-      "location": "Charlotte,NC",
-      "startDate": "January 2024",
-      "endDate": "Present",
-      "experiences": ["Assisted Professor Bryan Dobbs in conducting interactive and engaging lectures for the Software Development and Data Science projects, providing valuable insights into methodologies and best approaches.", 
-                         "Collaborated with students on hands-on coding exercises, project development, and troubleshooting, fostering a dynamic learning environment and contributing to overall success."],
-      "imageSrc": "history/unclogo.png"
+      "title": "Google Data Analytics",
+      "link": "https://www.coursera.org/account/accomplishments/professional-cert/UXL30BFQD5K1?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=prof",
+      "imageSrc": "certification/google.jpg"
     },
     {
-      "role": "Web Developer Intern",
-      "organisation": "Phable",
-      "location": "Bangalore, KA, India",
-      "startDate": "December 2022",
-      "endDate": "February 2023",
-      "experiences": ["Enhanced the live website and microsite of Phable using Next.js, HTML, CSS, and SCSS, leading to a 20% increase in user engagement and a 10% growth in overall traffic. Collaborated with senior developers to resolve frontend and backend bugs, ensuring seamless functionality, and wrote Node.js scripts to optimize backend data operations.", 
-                  "Implemented Agile methodologies through Jira, streamlining task management and reducing task completion time by 20%. Actively participated in sprint planning, and task allocation demonstrating strong organizational and teamwork skills."],
-      "imageSrc": "history/phable.jpg"
-    },
-    {
-      "role": "Software Engineer Intern",
-      "organisation": "Softwel (P) Ltd",
-      "location": "Kathmandu, Nepal",
-      "startDate": "May 2022",
-      "endDate": "June 2022",
-      "experiences": [
-        "Developed a user data storage web application, harnessing the power of C#.NET development and SQL achieving a 10% reduction in data success time. Translated design specifications into code, resulting in a 25% reduction in system bugs.",
-        "Collaborated with senior software engineers to evaluate application modules, contributing 15% increase in module efficiency and streamlined user experience ensuring flawless operation and peak performance of the software"
-      ],
-      "imageSrc": "history/softwel.jpeg"
+      "title": "Introduction to Statistics in Python",
+      "link": "https://www.datacamp.com/statement-of-accomplishment/course/9a00a1202950bb9cd26a89ca310416918927549d?raw=1",
+      "imageSrc": "certification/datacamp.jpeg"
     }
   ]
   

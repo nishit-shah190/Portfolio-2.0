@@ -1,0 +1,142 @@
+@import "../../vars.css";
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  gap: 20px;
+  padding: 40px;
+  justify-content: center;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.title {
+  color: var(--color-text);
+  font-size: 35px;
+  font-weight: 700;
+  letter-spacing: 1.75px;
+  text-transform: uppercase;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 79px;
+}
+
+.content {
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-top: 14px;
+  width: 100%;
+  box-sizing: border-box;
+ 
+  gap: 30px; /* Space between skill sets */
+}
+
+
+.skillSet {
+  background: transparent;
+  border: 2px solid #0b2447;
+  border-radius: 15px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+}
+.skillSet:hover {
+  transform: scale(1.01);
+}
+.skillSetTitle {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #ffffff;
+  margin-bottom: 15px;
+}
+
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+
+.skill {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background: rgba(255, 255, 255, 0.1);
+  padding: 10px 15px;
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: #ffffff;
+}
+
+.skill:hover {
+  transform: scale(1.05);
+}
+
+.skillImageContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.skill img {
+  width: 25px;
+  height: 25px;
+}
+
+
+
+.skillImageContainer {
+  background-color: var(--color-secondary);
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+  height: 100px;
+}
+
+.skillImageContainer img {
+  width: 55px;
+}
+
+.skill p {
+  font-size: 25px;
+  font-family: var(--font-roboto);
+  font-weight: 500;
+}
+.contactBtn {
+  text-decoration: none;
+  color: silver; 
+  font-size: 1.2rem;
+  font-weight: 600;
+  /* padding: 17px 26px; */
+  box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
+  transition: all 0.3s ease-in-out; 
+}
+.skill:hover {
+  background-color: var(--color-dark); 
+  color: var(--color-text); 
+}
+
+@media screen and (max-width: 830px) {
+  .content {
+    flex-direction: column;
+    align-items: center;
+    gap: 34px;
+  }
+
+  .skills {
+    width: 100%;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .history {
+    width: 100%;
+    gap: 9px;
+  }
+}
