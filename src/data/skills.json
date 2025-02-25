@@ -1,0 +1,78 @@
+[
+  {
+    "title": "Programming Language",
+    "skills": [
+      {
+        "title": "Python",
+        "imageSrc": "skills/python.png"
+      },
+      {
+        "title": "SQL",
+        "imageSrc": "skills/sql.png"
+      },
+      {
+        "title": "R",
+        "imageSrc": "skills/r.png"
+      },
+      {
+        "title": "JavaScript",
+        "imageSrc": "skills/js.png"
+      },
+      {
+        "title": "Java",
+        "imageSrc": "skills/java.png"
+      }
+    ]
+  },
+  {
+    "title": "Data Visualization",
+    "skills": [
+      {
+        "title": "Tableau",
+        "imageSrc": "skills/tableau.png"
+      },
+      {
+        "title": "PowerBI",
+        "imageSrc": "skills/powerbi.png"
+      },
+      {
+        "title": "Looker Studio",
+        "imageSrc": "skills/looker.png"
+      },
+      {
+        "title": "Amazon QuickSight",
+        "imageSrc": "skills/quicksight.png"
+      }
+    ]
+  },
+  {
+    "title": "Cloud Services",
+    "skills": [
+      {
+        "title": "Google Cloud Services",
+        "imageSrc": "skills/googlecloud.png"
+      },
+      {
+        "title": "Amazon Web Services",
+        "imageSrc": "skills/aws.png"
+      }
+    ]
+  },
+  {
+    "title": "Others",
+    "skills": [
+      {
+        "title": "Microsoft Suite (Excel, Word, Project, Powerpoint)",
+        "imageSrc": "skills/suite.png"
+      },
+      {
+        "title": "ETL Process",
+        "imageSrc": "skills/transform.png"
+      },
+      {
+        "title": "Data Cleaning & Manipulation",
+        "imageSrc": "skills/cleaning.png"
+      }
+    ]
+  }
+]
