@@ -6,27 +6,21 @@ import { getImageUrl } from "../../utils";
 export const Contact = () => {
   return (
     <footer id="contact" className={styles.container}>
-      <div className={styles.text}>
-        <h2>Contact</h2>
-        <p>Feel free to reach out!</p>
-      </div>
       <ul className={styles.links}>
-        <li className={styles.link}>
-          <img src={getImageUrl("contact/emailIcon.png")} alt="Email icon" />
-          <a href="mailto:myemail@email.com">myemail@email.com</a>
+         <li className={styles.link}>
+          <img src={getImageUrl("contact/phone.png")} alt="Phone icon" />
+          <a>+1 (940) 843-5986</a>
         </li>
         <li className={styles.link}>
-          <img
-            src={getImageUrl("contact/linkedinIcon.png")}
-            alt="LinkedIn icon"
-          />
-          <a href="https://www.linkedin.com/myname">linkedin.com/myname</a>
+          <img src={getImageUrl("contact/emailIcon.png")} alt="Email icon" />
+          <a href="mailto:nishitshah190@gmail.com">nishitshah190@gmail.com</a>
         </li>
         <li className={styles.link}>
           <img src={getImageUrl("contact/githubIcon.png")} alt="Github icon" />
-          <a href="https://www.github.com/myname">github.com/myname</a>
+          <a href="https://github.com/nishit-shah190">Github</a>
         </li>
       </ul>
+      <p className={styles.links}>© 2025 Nishit Shah. All rights reserved.</p>
     </footer>
   );
 };

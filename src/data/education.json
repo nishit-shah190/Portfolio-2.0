@@ -1,0 +1,20 @@
+[
+    {
+      "degree": "Master of Science Computer Science",
+      "organisation": "University of North Carolina at Charlotte",
+      "location": "Charlotte, NC",
+      "startDate": "August 2023",
+      "endDate": "May 2025",
+      "coursework": ["Big Data Analytics for Competitive Advantage", "Visual Analytics", "Database System", "Algorithm & Data Structure", "Information Technology Project Management"],
+      "imageSrc": "history/unclogo.png"
+    },
+    {
+        "degree": "Bachelor of Technology in Computer Science and Engineering",
+        "organisation": "Vellore Institute of Technology",
+        "location": "Vellore, Tamil Nadu, India",
+        "startDate": "July 2019",
+        "endDate": "May 2023",
+        "coursework": ["Software Engineering", "Information Security Analysis and Audit", "Database Management Systems", "Artitificial Intelligence", "Statistics for Engineers", "Natural Language Processing"],
+        "imageSrc": "history/vit.png"
+      }
+]

@@ -45,9 +45,6 @@ export const Navbar = () => {
             <a href="#education">Education</a>
           </li>
           <li>
-            <a href="#publication">Publication</a>
-          </li>
-          <li>
             <a href="#contact">Contact</a>
           </li>
         </ul>
