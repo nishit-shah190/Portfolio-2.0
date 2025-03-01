@@ -6,7 +6,7 @@
   gap: 20px;
   padding: 40px;
   justify-content: center;
-  margin-left: 10%;
+  margin-left: 11%;
   margin-right: 10%;
 }
 
@@ -18,7 +18,7 @@
   text-transform: uppercase;
   margin-left: 10%;
   margin-right: 10%;
-  margin-top: 79px;
+  margin-top: 59px;
 }
 
 .content {
@@ -28,6 +28,7 @@
   margin-top: 14px;
   width: 100%;
   box-sizing: border-box;
+  
  
   gap: 30px; /* Space between skill sets */
 }
@@ -40,6 +41,7 @@
   padding: 20px;
   text-align: center;
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+  
 }
 .skillSet:hover {
   transform: scale(1.01);
