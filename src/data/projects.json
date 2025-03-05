@@ -1,26 +1,26 @@
 [
   {
-    "title": "Project A",
-    "imageSrc": "projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Express", "Node"],
-    "demo": "https://www.example.com",
-    "source": "https://www.github.com"
+    "title": "Flight Delay Analysis & Prediction",
+    "imageSrc": "projects/flight_delay.png",
+    "description": "Analysis of flight performance metrics, delays, cancellations and diversions. Identifying patterns and key contribution factors.",
+    "skills": ["Python", "Tableau", "Machine Learning"],
+    "demo": "https://github.com/nishit-shah190/Flight-Delay-Insights-Analysis-and-Prediction",
+    "source": "https://public.tableau.com/views/Airline_17395903157640/AirlineDelay?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link"
   },
   {
-    "title": "Project B",
-    "imageSrc": "projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Express", "Node", "Sass"],
-    "demo": "https://www.example.com",
-    "source": "https://www.github.com"
+    "title": "Uber Analytics",
+    "imageSrc": "projects/uber.png",
+    "description": "Structured Uber ride data for scalability and efficiency, building a pipeline to process 100K+ records for fast analysis and visualization.",
+    "skills": ["Google Cloud Platform", "Looker Studio", "BigQuery"],
+    "demo": "https://github.com/nishit-shah190/Uber-Analytics",
+    "source": "https://lookerstudio.google.com/u/0/reporting/bcf5e2aa-07b7-4436-b849-5cc276fd2e8c/page/i62ZE"
   },
   {
-    "title": "Project C",
-    "imageSrc": "projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Express", "Node"],
-    "demo": "https://www.example.com",
-    "source": "https://www.github.com"
+    "title": "London Bike Sharing",
+    "imageSrc": "projects/london_bike_share.png",
+    "description": "Analyzed London bike-sharing data with an interactive Tableau dashboard, revealing ride trends, moving averages, and weather impact.",
+    "skills": ["Python", "SQL", "Tableau"],
+    "demo": "https://github.com/nishit-shah190/London-Bike-Sharing",
+    "source": "https://public.tableau.com/views/London_Bike_Sharing_17322509632680/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link"
   }
 ]
