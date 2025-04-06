@@ -5,16 +5,17 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-top: 49px;
+  margin-top: 50px;
   z-index: 1;
   margin-left: 10%;
   margin-right: 10%;
+  margin-bottom: 90px;
 }
 
 .content {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: center;
   color: var(--color-text);
   z-index: 1;
 }
@@ -25,8 +26,8 @@
   font-family: var(--font-roboto);
   background: linear-gradient(
     90deg,
-    rgba(255, 255, 255, 1) 70%,
-    rgba(255, 255, 255, 0) 120%
+    rgba(255, 255, 255, 1) 20%,
+    rgba(255, 255, 255, 0) 180%
   );
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
@@ -35,13 +36,14 @@
   font-size: 30px;
   font-weight: 900;
   font-style: italic;
+  justify-content: center;
   margin-bottom: 20px;
   font-family: var(--font-roboto);
-  width:80%;
+  /* width:60%; */
   background: linear-gradient(
     90deg,
-    rgba(255, 255, 255, 1) 70%,
-    rgba(255, 255, 255, 0) 120%
+    rgba(255, 255, 255, 1) 20%,
+    rgba(255, 255, 255, 0) 180%
   );
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
@@ -49,9 +51,16 @@
 .description {
   font-size: 25px;
   font-family: var(--font-roboto);
-  margin-bottom: 52px;
+  margin-bottom: 32px;
   text-align: justify;
-  width:80%;
+  width:70%;
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 1) 40%,
+    rgba(255, 255, 255, 0) 190%
+  );
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
 }
 .buttoncontainer{
   display: flex;
@@ -77,13 +86,8 @@
 }
 
 .heroImg {
-  width: 30%;
+  width: 20%;
   z-index: 3;
-  ;
-  /* animation-name:inheri;
-  animation-duration: 3s;
-  animation-iteration-count: infinite;
-  animation-timing-function: ease-in-out; */
 }
 
 @keyframes floating {

@@ -7,7 +7,12 @@ export const Hero = () => {
   return (
     <section className={styles.container}>
       <div className={styles.content}>
-        <h1 className={styles.title}>Hi, I'm Nishit</h1>
+      <img
+        src={getImageUrl("hero/IMG_7517.png")}
+        alt="Hero image of me"
+        className={styles.heroImg}
+      />
+        <h1 className={styles.title}>Nishit Shah</h1>
         <h1 className={styles.subtitle}>Making Data Speak for Smarter Decisions</h1>
         <p className={styles.description}>
           Data Analyst based in United States! 
@@ -23,11 +28,7 @@ export const Hero = () => {
         </a>
         </div>
       </div>
-      <img
-        src={getImageUrl("hero/IMG_7517.png")}
-        alt="Hero image of me"
-        className={styles.heroImg}
-      />
+     
       <div className={styles.topBlur} />
       <div className={styles.bottomBlur} />
     </section>
